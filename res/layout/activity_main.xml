@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shapeImageView="http://schemas.android.com/apk/res/com.sherlocktesla.shapeimageview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.sherlocktesla.shapeimageview.ShapeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tesla"
+            shapeImageView:ShapeType="ROUNDEDCORNERS" />
+
+        <com.sherlocktesla.shapeimageview.ShapeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tesla"
+            shapeImageView:ShapeType="CIRCLE" />
+
+        <com.sherlocktesla.shapeimageview.ShapeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tesla"
+            shapeImageView:ShapeType="TRIANGLE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.sherlocktesla.shapeimageview.ShapeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tesla"
+            shapeImageView:ShapeType="OVAL" />
+
+        <com.sherlocktesla.shapeimageview.ShapeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tesla"
+            shapeImageView:ShapeType="FIVEEDGE" />
+
+        <com.sherlocktesla.shapeimageview.ShapeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tesla"
+            shapeImageView:ShapeType="NONE" />
+    </LinearLayout>
+
+    <com.sherlocktesla.shapeimageview.ShapeImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:src="@drawable/tesla"
+        shapeImageView:ShapeType="FIVEPOINTSTAR" />
+
+</LinearLayout>
